@@ -73,5 +73,18 @@ def update_book(book_id):
 
 
 
+# Endpoint to delete all books (clear the table)
+@app.route('/api/books', methods=['DELETE'])
+def delete_all_books():
+    try:
+        # Delete all books in the table
+        Book.query.delete()
+        db.session.commit()
+        return jsonify({'message': 'All books deleted successfully'})
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 if __name__ == '__main__':
     app.run(debug=True)
