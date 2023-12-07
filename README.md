@@ -1,6 +1,5 @@
 # Creating API for handling book data
-I have created these api to 
-Placement Assignment for letsbloom
+I have created these APIs for the placement test for Letsbloom.
 
 
 
