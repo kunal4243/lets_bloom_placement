@@ -128,7 +128,9 @@ Updates the row number 2 if it exists by changing title to "hello world"
 
 ## Credits
 [Rest API with flask and sqlalchemy- Traversy Media](https://www.youtube.com/watch?v=PTZiDnuC86g)
-[MySQL Hosted on](https://www.freemysqlhosting.net/)
-[Tested using](https://www.postman.com/api-documentation-tool/)
+
+[MySQL Host](https://www.freemysqlhosting.net/)
+
+[Tested using the postman](https://www.postman.com/api-documentation-tool/)
 
 
