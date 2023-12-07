@@ -3,7 +3,7 @@ I have created these APIs for the placement test for Letsbloom.
 
 ## Working with the code.
 
-First, host the code locally or in a cloud to get a link to the host. In my case, it was locally hosted with the link:  `http://127.0.0.1:5000`
+First, host the `library_api.py` file locally or in a cloud to get a link to the host. In my case, it was locally hosted with the link:  `http://127.0.0.1:5000`
 
 The database is hosted online and is free but with a limit of 5 MB. So before filling it out, please clear the old database by calling the delete endpoint mentioned below. The database could be changed too, by changing the link in the code itself.
 
