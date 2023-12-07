@@ -28,7 +28,7 @@ This endpoint makes an HTTP GET request to retrieve a list of books. The request
 The response will have a status code of 200, indicating a successful request. The body of the response will contain an array of books, where each book object includes the author, id, and title.
 
 **Example response body:**
-```
+```JSON
 {
     "books": [
         {
@@ -58,7 +58,7 @@ This endpoint allows you to add a new book to the database.
 JSON Format Example
 Body type- application/json
 
-```
+```JSON
 {
     "title": "hello",   
     "author": "kunal"
@@ -74,7 +74,7 @@ error (string): An error message indicating the reason for the request failure.
 Status: Book added
 
 Response:
-```
+```JSON
 {
     "message": "Book added successfully."
 }
@@ -111,7 +111,7 @@ message (string): Book not found or not in the list
 
 Example Request:
 \api\book\2 (PUT)
-```
+```JSON
 {
     "title": "hello world"
 }
